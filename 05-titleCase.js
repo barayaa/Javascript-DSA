@@ -12,13 +12,12 @@ function capitalize(str) {
     return result.join(' ')
 }
 
-// console.log(capitalize('abdoulwahasb explode lorem'));
+console.log(capitalize('abdoulwahasb explode lorem'));
 
 //Secon methode
 function capitalize2(str) {
     return str.replace(/\b\w/g, (char) => char.toUpperCase());
 }
-
 
 //  console.log(capitalize("hello world"));
 
@@ -31,6 +30,5 @@ function capitalize3(str) {
 }
 
 console.log(capitalize3("hello world"));
-
 
 

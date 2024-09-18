@@ -8,4 +8,5 @@ function reverse1(str) {
         return true
     }
     return false
+
 }

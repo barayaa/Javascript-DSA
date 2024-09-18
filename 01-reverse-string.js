@@ -45,4 +45,3 @@ function reverseNumber(num) {
     return parseInt(numberReverse) * Math.sign(num);
 }
 
-
